@@ -6,7 +6,7 @@
 
 ## Description
 
-_An exercise with forms, using madlibs as a theme.
+An exercise with forms, using madlibs as a theme.
 
 ## Setup/Installation Requirements
 
@@ -14,7 +14,7 @@ _An exercise with forms, using madlibs as a theme.
 * Navigate to index.html file.
 * Right click and open in the browser of your choice.
 
-* Alternatively, open the webpage at https://jhvozdovich.github.io/madlib-2/
+* Alternatively, open the webpage at https://jhvozdovich.github.io/madlib-2/ OR https://mikah-mathews.github.io/mad-lib/
 
 ## Known Bugs
 
