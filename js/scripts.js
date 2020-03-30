@@ -1,21 +1,11 @@
 $(document).ready(function(){
   $("#form-one").submit(function(event) {
-    var person1Input = $("input#person1").val();
-    var place1Input = $("input#place1").val();
-    var monsterInput = $("input#monster").val();
-    var scaryNoiseInput = $("input#scary-noise").val();
-    var exclamationInput = $("input#exclamation").val();
-    var trapInput = $("input#trap").val();
-    var villainInput = $("input#villain").val();
+    var blanks = ["person1", "place1", "monster", "scary-noise", "exclaimation", "trap", "villain"];
 
-
-    $(".person1").text(person1Input);
-    $(".place1").text(place1Input);
-    $(".monster").text(monsterInput);
-    $(".scary-noise").text(scaryNoiseInput);
-    $(".exclamation").text(exclamationInput);
-    $(".trap").text(trapInput);
-    $(".villain").text(villainInput);
+    blanks.forEach(function(blank) {
+      var userInput = $("input#" + blank).val();
+      $("." + blank).text(userInput);
+    })
 
     $("#story").show();
 
